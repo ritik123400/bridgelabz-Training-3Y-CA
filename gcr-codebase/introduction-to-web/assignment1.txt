@@ -1,0 +1,123 @@
+1.  Difference between Frontend, Backend and Full-Stack Development
+
+Frontend Development: Frontend is the part of a website that users can
+see and interact with. It is made using HTML, CSS and JavaScript.
+Example: On Amazon, the product images, search bar and Add to Cart
+button are part of the frontend.
+
+Backend Development: Backend is the server-side part of a website. It
+processes requests, stores data and communicates with the database.
+Example: When you log in to Amazon or place an order, the backend
+verifies your account and processes the order.
+
+Full-Stack Development: A full-stack developer works on both frontend
+and backend. Example: A developer who creates both the shopping page and
+the server that stores orders is a full-stack developer.
+
+------------------------------------------------------------------------
+
+2.  Client-Server Model
+
+                 Client (Browser)
+                       |
+                HTTP Request
+                       |
+                 Web Server
+                       |
+                 Database
+                       |
+                HTTP Response
+                       |
+              Browser Displays Page
+
+------------------------------------------------------------------------
+
+3.  How a Browser Requests and Displays a Web Page
+
+Step 1: The user enters a website address (URL). Step 2: The browser
+sends an HTTP/HTTPS request to the web server. Step 3: The server
+processes the request. Step 4: If needed, the server gets data from the
+database. Step 5: The server sends HTML, CSS and JavaScript files back.
+Step 6: The browser reads these files and displays the webpage.
+
+------------------------------------------------------------------------
+
+4.  Tools Required for Web Development
+
+5.  Visual Studio Code (VS Code) - Used to write and edit code.
+
+6.  Google Chrome or Microsoft Edge - Used to test websites.
+
+7.  Live Server Extension - Automatically refreshes the webpage after
+    saving.
+
+8.  Git - Used for version control.
+
+9.  GitHub - Stores projects online.
+
+10. Node.js - Runs JavaScript outside the browser.
+
+11. npm - Installs JavaScript packages.
+
+12. Terminal/Command Prompt - Runs development commands.
+
+------------------------------------------------------------------------
+
+5.  What is a Web Server?
+
+A web server is software that stores websites and sends web pages to
+users when they request them through a browser.
+
+Examples: - Apache HTTP Server - Nginx - Microsoft IIS - LiteSpeed -
+Node.js with Express
+
+------------------------------------------------------------------------
+
+6.  Roles in a Project
+
+Frontend Developer: - Designs the user interface. - Creates responsive
+web pages. - Improves user experience.
+
+Backend Developer: - Writes server-side code. - Connects the database. -
+Creates APIs. - Handles login and authentication.
+
+Database Administrator (DBA): - Creates and manages databases. -
+Performs backups. - Maintains database security. - Improves database
+performance.
+
+------------------------------------------------------------------------
+
+8.  Static vs Dynamic Website
+
+Static Website: - Same content for every visitor. - Mostly built using
+HTML and CSS. Example: Portfolio website.
+
+Dynamic Website: - Content changes according to the user or database. -
+Uses frontend, backend and database. Example: Amazon, Facebook,
+Instagram.
+
+------------------------------------------------------------------------
+
+9.  Five Web Browsers and Their Rendering Engines
+
+Google Chrome - Blink Microsoft Edge - Blink Mozilla Firefox - Gecko
+Apple Safari - WebKit Opera - Blink
+
+Rendering engines convert HTML, CSS and JavaScript into the webpage
+shown on the screen. Blink is fast and widely used, Gecko is developed
+by Mozilla, and WebKit is mainly used in Safari.
+
+------------------------------------------------------------------------
+
+10. Basic Web Architecture
+
+              User
+                |
+          Web Browser
+                |
+          HTTP Request
+                |
+           Web Server
+           /        \
+
+    Database APIs   / Web Server | HTTP Response | Browser Output
